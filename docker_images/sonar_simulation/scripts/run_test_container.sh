@@ -11,7 +11,7 @@ docker run -i -d \
 --env HTTPS_PROXY=https://$hostIP:$hostPort \
 --env http_proxy=http://$hostIP:$hostPort \
 --env https_proxy=https://$hostIP:$hostPort \
-sonar_simulation
+xiaosq2000/sonar_simulation:latest
 
 docker cp ~/.vimrc test_multibeam:/root
 
